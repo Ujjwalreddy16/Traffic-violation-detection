@@ -1,0 +1,9 @@
+# Ignore large ML/DL weight files
+*.weights
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.tflite
+*.pb

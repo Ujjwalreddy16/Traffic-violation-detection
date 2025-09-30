@@ -34,6 +34,19 @@ Speed estimation with simple homography calibration.
 Per-violation snapshots, short clips (optional), and structured logs.
 
 Easy config via configs/enhanced_config.yaml.
+🔧 Requirements
+
+Python 3.8–3.11
+
+OpenCV (with FFMPEG support)
+
+PyTorch or Darknet backend (choose one; PyTorch default here)
+
+NumPy, SciPy, pyyaml, tqdm
+
+For tracking: filterpy, lap, sklearn (DeepSORT) or OC-SORT deps
+
+Optional: CUDA 11+ for GPU inference
 ## 📥 Pretrained Weights
 
 This project requires `yolov3.weights` (~236 MB).  
